@@ -15,7 +15,7 @@ public class Listener implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == jbt0){
-            JOptionPane.showMessageDialog(null,"你是我的了！！！","把你宠到天上去",JOptionPane.PLAIN_MESSAGE);
+            JOptionPane.showMessageDialog(null,"所谓世间，该不会就是你吧？","把你宠到天上去",JOptionPane.PLAIN_MESSAGE);
             System.exit(0);
         }else if (e.getSource() == jbt1){
             int ram = new Random().nextInt(5);
