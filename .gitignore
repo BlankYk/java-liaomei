@@ -1,3 +1,5 @@
 .idea/
 lobeU.iml
 src/META-INF
+*/.DS_Store
+.DS_Store
